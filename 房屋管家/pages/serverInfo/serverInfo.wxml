@@ -1,0 +1,30 @@
+<import src="../template/template.wxml"/>
+
+<view>
+    <image src="../../image/cleanHome.png" mode="aspectFit"></image>
+
+    <view class = "baseView">
+<!--中间文字-->
+        <label class = "tipLabel">基本信息</label>
+        <label class="detailL">打扫卫生</label>
+
+        <view class="priceV">
+            <label class="detailL">80.00元</label>
+            <view class="numberV">
+                <button class="addBtn">➕</button>
+                <label>0</label>
+                <button class="reduceBtn">➖</button>
+            </view> 
+        </view>
+
+        <label class="tipLabel">详细信息</label>
+
+        <label class="detailL">如果你没法简洁的表达你的想法，那说明你还不够了解它</label>
+
+        <label class="detailL">--阿尔伯特。爱因斯坦</label>
+        
+    </view>
+
+    <!--底部提交订单-->
+        <template is="acountV"></template>
+</view>

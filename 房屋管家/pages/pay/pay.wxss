@@ -1,0 +1,41 @@
+page {   
+  /*background-color: #ccc;  */
+}  
+
+.payAmountV{
+    background-color: white;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.payAmountV::before,.payAmountV::after{
+    content: '';
+    background-color: #ccc;
+    height: 1px;
+    display: block;
+}
+
+.payAmountV::after{
+    margin-top: 10px;
+}
+
+.payAmountV label{
+    margin-left: 10px;
+}
+
+.choosePayMethodV label{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.payBtnV {
+    position: absolute;
+    width:100%;
+    bottom: 100px;
+}
+
+.sureBtn{
+    width: 60%;
+}

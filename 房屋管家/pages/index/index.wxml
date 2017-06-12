@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="userTap" class="user_index">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" mode="aspectFill"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <!--<view class="usermotto" bindtap="shopTap">
+    <text class="index-text">欢迎使用房屋管家</text>
+  </view>-->
+
+<view  class="bottomV">
+  <!--进入房源-->
+  <button  class="houseListBtn" bindtap="checkhouseList">查看房源</button>
+
+  <!--<contact-button type="default-dark" size="27" session-from="client">联系客服</contact-button>-->
+  <button class="contactBtn" open-type="contact" type="default-dark" size="27" session-from="client">联系客服</button>
+</view>
+
+
+</view>

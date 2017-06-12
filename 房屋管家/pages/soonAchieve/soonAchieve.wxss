@@ -1,0 +1,42 @@
+/*@import url("../template/template.wxss");*/
+
+.baseView{
+    
+}
+
+.bannerImg{
+    width: 100%;
+    height: 170px;
+    /*margin: 5px;*/
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 1px 3px 1px #ccc;
+}
+
+/*.middleItemV{
+    margin: 5px;
+    box-shadow: 0 1px 3px 1px #ccc;
+}
+
+.middleItemV{
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.middleItemL{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.goodsImg{
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+}
+
+.numberV{
+    margin-top: 50px;
+}*/

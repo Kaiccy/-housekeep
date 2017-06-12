@@ -1,0 +1,70 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*justify-content: space-between;*/
+  /*padding: 100rpx 0;*/
+  /*box-sizing: border-box;*/
+
+  /*background-color: palegreen;*/
+} 
+
+.user_index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*height: 37%;
+  background-color: red;*/
+  /*margin-top: 80px;*/
+  /*background-color: palegreen;*/
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  
+}
+
+.userinfo-nickname {
+  color: #000000;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+/* reset */
+page {
+  background-color: #f8f8f8;
+  height: 100%;
+  font-size: 15px;
+  line-height: 1.6;
+}
+checkbox, radio{
+  margin-right: 10rpx;
+}
+button{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+form{
+  width: 100%;
+}
+
+/*清除浮动*/
+ .clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/*自定义*/
+@import "pages/template/template.wxss";

@@ -1,0 +1,32 @@
+<!--<label>服务类型</label>-->
+<view class="section">
+  <view class="">服务类型</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{serverArray}}">
+    <view class="picker">
+      {{serverArray[index]}}
+    </view>
+  </picker>
+</view>
+
+<!--备注-->
+<view class="remarkV">
+  <view class="remark">备注</view>
+  <textarea class="" placeholder="有什么嘱咐的吗" placeholder-class="textPlaceholder"/>
+</view>
+
+<!--联系人-->
+<view class="contactV">
+  <view>联系人</view>
+  <input class="contactIpt" placeholder="郝开芯" />
+</view>
+
+<!--联系电话-->
+<view class="contactV">
+  <view>联系电话</view>
+  <input class="contactIpt" placeholder="13289987232" type="number"/>
+</view>
+
+<!--提交按钮-->
+<view class="subBtnV">
+  <button class="subBtn">确认提交</button>
+</view>

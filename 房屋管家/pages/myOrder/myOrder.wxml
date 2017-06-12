@@ -1,0 +1,13 @@
+<view class="baseV">
+    <block wx:for = "{{orders}}">
+        <view class="orderItemV">
+            <image class = "orderImg" src="{{item.imgUrl}}" mode="aspectFill"> </image>
+            <view class="labelsV">
+                <label class = "orderNameL">{{item.title}}</label>
+                <label class = "orderPriceL">{{item.price}}</label>
+                <label class = "orderStateL">{{item.state}}</label>
+            </view>
+        </view>
+    </block>
+</view>
+

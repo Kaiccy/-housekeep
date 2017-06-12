@@ -1,0 +1,13 @@
+<view class="baseView">
+
+    <block wx:for = "{{items}}" wx:key = "item">
+        <view class="imgLabelV" bindtap="toInfoPage" data-title="{{item.title}}" data-id="{{item.id}}">
+
+            <image src="{{item.img}}" class="img" mode="scaleToFill"></image>
+            <label id="titleL" class="titleL">{{item.title}}</label>
+            
+        </view>
+        
+    </block>
+
+</view>

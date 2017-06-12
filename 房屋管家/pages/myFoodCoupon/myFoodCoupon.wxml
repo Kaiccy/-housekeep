@@ -1,0 +1,48 @@
+
+<view class = "baseView">
+    <view class = "line1"></view>
+
+    <view class="contentV">
+        <image src="../../image/icons/homeIcon.png" class="home_icon"></image><label class="couponTitle">免费打扫卫生</label>
+        <view class = "timeV clearfix">
+            <view class="createV">
+                <label>创建时间：</label>
+                <label>2012-6-1</label>
+            </view>
+            <view class="expireV">
+                <label class="expireL">到期时间：</label>
+                <label>2012-6-10</label>
+            </view>
+        </view>
+
+        <view class="statusV">
+            <label>订单状态：</label>
+            <label>未使用</label>
+        </view>
+    </view>
+    <view class = "line2"></view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

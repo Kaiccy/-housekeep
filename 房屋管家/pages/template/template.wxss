@@ -1,0 +1,87 @@
+/*goodsItem*/
+.middleItemV{
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    box-shadow: 0 1px 3px 1px #ccc;
+    position: relative;
+}
+
+.middleItemL{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px; 
+    line-height: 30px;
+}
+
+.goodsImg{
+    width: 110px;
+    height: 75px;
+    margin: 10px;
+}
+
+/*商品数量增减*/
+.numberV{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.addBtn,.reduceBtn{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*提交订单*/
+.acountV{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    color: rgb(246,61,66);
+    background-color: #fff;
+}
+
+.acountForm{
+    align-items: center;
+}
+
+.sumNumberL,.amountL{
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.amountL{
+    position: absolute;
+     right: 80px;
+     margin-right: 20px;
+}
+.submitBtn{
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-flex;
+    position: absolute;
+    right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(246,61,66);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}

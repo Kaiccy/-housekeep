@@ -1,0 +1,46 @@
+.topSwiper {
+    background-color: #ccc;
+    width: 100%;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+/*中间部分*/
+/*.items{
+    width: 100%;
+}*/
+.items view {
+    width: 49%;
+    /*height: 100px;*/
+    /*display: flex;
+    flex-direction: column;*/
+    float: left;
+    /*text-align: center;*/
+    /*align-items: center;*/
+    font-size: 12px;
+    margin-bottom: -2px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.items view image{
+    width: 100%;
+}
+.items view image:nth-of-type(1){
+    border-right: none;
+}
+.items view image:nth-of-type(3){
+    border-right: none;
+    background-color: red;
+}
+.items view image:nth-of-type(5){
+    border-right: none;
+}
+.items view image:nth-of-type(7){
+    border-right: none;
+}
+
+
+/*底部图片*/

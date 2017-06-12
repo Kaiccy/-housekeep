@@ -1,0 +1,22 @@
+.imgLabelV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 1px 3px 1px #ccc;
+}
+
+.titleL{
+    background-color: rgb(242,54,58);
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img{
+    width: 100%;
+    height: 210px;
+}

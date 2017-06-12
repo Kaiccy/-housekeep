@@ -1,0 +1,36 @@
+/**index.wxss**/
+.index-text{
+    color: #000;
+    text-decoration: underline;
+    font-size: 37rpx;
+}
+
+.userinfo-nickname {
+  color: #000000;
+}
+
+.bottomV{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+
+button{
+    font-size: 16px;
+    /*position: absolute;*/
+}
+
+.houseListBtn{
+    /*bottom: 60px;*/
+    width: 200px;
+}
+
+.contactBtn{
+    /*bottom: 10px;*/
+    font-size: 14px;
+}
+
+.contactBtn::after{
+    border: none;
+}

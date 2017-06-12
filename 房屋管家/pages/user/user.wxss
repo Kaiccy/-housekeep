@@ -1,0 +1,58 @@
+
+.body{
+    height: 100%;
+}
+.topV{
+    background-color: rgb(242,54,58);
+    height: 37%;
+    color: #fff;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userName{
+    /*margin-top: 15px;*/
+    font-size: 15px;
+}
+.vipText{
+    margin: 14px;
+    font-size: 18px;
+}
+
+.view-icon-ud{
+    width: 100%;
+    padding: 10rpx;
+}
+.view-vip{
+    width: 100%;
+    text-align: center;
+    align:center;
+}
+
+
+.vipView{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    /*margin-top: 3px;*/
+    height: 40px;
+    align-items: center;
+}
+
+/*添加横线*/
+/*.vipView::after,.vipView::before{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+}*/
+
+.vipIcon{
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px,5px,5px,5px;
+}

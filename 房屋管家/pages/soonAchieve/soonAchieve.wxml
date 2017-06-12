@@ -1,0 +1,15 @@
+
+<import src="../template/template.wxml"/>
+
+<view class="baseView">
+    <image class="bannerImg" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode="aspectFill"></image>
+
+    <view class="middleV">
+        <block wx:for = "{{goods}}">
+            <template is="goodsItem" data="{{item}}"></template>
+        </block>
+    </view>
+
+    <template is="acountV"></template>
+
+</view>

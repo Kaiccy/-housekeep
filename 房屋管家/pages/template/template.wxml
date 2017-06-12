@@ -1,0 +1,26 @@
+<template name="goodsItem">
+        <view class="middleItemV">
+            <image class="goodsImg" src="{{item.img}}" mode="aspectFill"></image>
+            <view class="middleItemL">
+                <label>{{item.name}}</label>
+                <label>{{item.price}}</label>
+            </view>
+            <view class="numberV">
+                <button class="addBtn">+</button>
+                <label>0</label>
+                <button class="reduceBtn">-</button>
+            </view> 
+        </view>
+</template>
+
+<template name="acountV">
+    <view class = "acountV">
+        <form class = "acountForm">
+            <label class="sumNumberL">共0件</label>
+            <label class = "amountL">0.00元</label>
+            <!--<label>-->
+                <button class = "submitBtn" form-type="submit" bindtap="buyAction">购买</button>
+            <!--</label>-->
+        </form>
+    </view>
+</template>

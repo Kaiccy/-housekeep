@@ -1,0 +1,45 @@
+.baseView{
+    margin-top: 5px;
+    color: #333;
+}
+
+.contentV{
+    padding: 0 20px;
+    /*position: relative;*/
+}
+.couponTitle{
+    font-size: 17px;
+}
+.statusV{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.timeV{
+    margin-top: 18px;
+}
+
+.line1,.line2{
+    background-color: #ccc;
+    width: 100%;
+    height: 1px;
+}
+.line1{
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.line2{
+    margin-top: 30px;
+}
+.expireV{
+    float: right
+}
+.createV{
+    float: left;
+}
+
+.home_icon{
+    width: 16px;
+    height: 14px;
+    margin-right: 10px;
+}

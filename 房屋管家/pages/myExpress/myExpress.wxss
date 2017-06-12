@@ -1,0 +1,44 @@
+page{
+    font-size: 15px;
+    color: #333;
+}
+.expressItemV::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+}
+.smallFontV{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.createV{
+    float: left;
+    margin-left: 15px;
+}
+
+.statusV{
+    float: right;
+    margin-right: 15px;
+}
+
+.orederNumV{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+/*
+.expressItemV{
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 1px #ccc;
+}
+
+.expressItemV view{
+    margin-top: 10px;
+}
+
+.expressItemV view label{
+    margin-left: 10px;
+}*/

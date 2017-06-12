@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/home/home",
+    "pages/myFoodCoupon/myFoodCoupon",
+    "pages/myOrder/myOrder",
+    "pages/serverInfo/serverInfo",
+    "pages/shopCenter/shopCenter",
+    "pages/soonAchieve/soonAchieve",
+    "pages/shopCar/shopCar",
+    "pages/template/template",
+    "pages/pay/pay",
+    "pages/myExpress/myExpress",
+    "pages/setwardService/setwardService",
+    "pages/homeInfo/homeInfo"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "rgb(242,54,58)",
+    "navigationBarTitleText": "房屋管家",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "white",
+    "statusBarTextStyle": "blue"
+  }
+}

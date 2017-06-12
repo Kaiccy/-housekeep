@@ -1,0 +1,38 @@
+
+.section, .remarkV, .contactV{
+    margin: 10px;
+}
+
+.picker{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.remarkV textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+.textPlaceholder{
+    font-size: 14px;
+}
+
+.contactIpt{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.subBtnV{
+    position: absolute;
+    bottom: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.subBtn {
+    width: 300px;
+}

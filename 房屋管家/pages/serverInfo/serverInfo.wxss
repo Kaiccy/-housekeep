@@ -1,0 +1,52 @@
+.baseView{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*图片的样式*/
+view image{
+    width: 100%;
+    background-color: black;
+}
+
+.priceV{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tipLabel{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.detailL{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

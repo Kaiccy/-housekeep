@@ -1,0 +1,19 @@
+
+<block wx:for = "{{expresses}}">
+    <view class="expressItemV">
+        <view class="orederNumV">
+            <label>订单号:</label>
+            <label>{{item.num}}</label>
+        </view>
+        <view class="smallFontV clearfix">
+            <view class="createV">
+                <label>创建时间:</label>
+                <label>{{item.time}}</label>
+            </view>
+            <view class="statusV">
+                <label>订单状态:</label>
+                <label>{{item.state}}</label>
+            </view>
+        </view>
+    </view>
+</block>

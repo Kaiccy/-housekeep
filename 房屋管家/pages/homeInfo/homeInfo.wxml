@@ -1,0 +1,36 @@
+<import src="../template/template.wxml"/>
+
+<!--轮播图-->
+<swiper class = "topSwiper" indicator-dots = "true" circular = "true" autoplay = "true" duration="500" interval="1500" bindchange="changeAction">
+    <block wx:for = "{{homeInfo.image}}" wx:key = "item">
+        <swiper-item>
+            <image class = "slide-image" src="{{item}}" mode="aspectFill"></image>
+        </swiper-item>
+    </block>
+</swiper>
+
+<!--中间部分-->
+<view class = "baseView">
+<!--中间文字-->
+    <label class = "tipLabel">房屋地址</label>
+    <label class="detailL">{{homeInfo.address}}</label>
+
+    <label class="tipLabel">房屋风格</label>
+
+    <label class="detailL">{{homeInfo.label}}</label>
+
+    <label class="detailL">{{homeInfo.mark}}</label>    
+</view>
+
+<!--<button bindtap="toWebView">点我</button>-->
+
+<!--底部联系人-->
+<view class="contactV">
+    <label>联系人：</label>
+    <label>{{homeInfo.name}}</label>
+    <label>{{homeInfo.tel}}</label>
+</view>
+
+
+
+

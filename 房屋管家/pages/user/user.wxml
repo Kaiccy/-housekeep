@@ -1,0 +1,23 @@
+<!--pages/user/user.wxml-->
+<view class="body">
+    <view class="topV">
+        <view bindtap="bindViewTap" class="userinfo">
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" mode="aspectFill"></image>
+            <text class="userName">{{userInfo.nickName}}</text>
+        </view>
+        <view class="view-vip">
+            <text class="vipText">黄金VIP</text>
+        </view>
+    </view>
+    
+
+    <view>
+        <block wx:for = "{{titleArr}}" wx:key = "item">
+            <view class = "vipView" bindtap="toPageAction" data-title="{{item.title}}">
+                <image class = "vipIcon" src="{{item.img}}" mode="aspectFill"> </image>
+                <label class = "vipLabel" name = "vipLabel">{{item.title}}</label>
+            </view>
+        </block>
+    </view>
+    
+</view>
