@@ -13,7 +13,8 @@
     "pages/pay/pay",
     "pages/myExpress/myExpress",
     "pages/setwardService/setwardService",
-    "pages/homeInfo/homeInfo"
+    "pages/homeInfo/homeInfo",
+    "pages/vipScore/vipScore"
   ],
   "window":{
     "navigationBarBackgroundColor": "rgb(242,54,58)",

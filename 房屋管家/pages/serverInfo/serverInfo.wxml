@@ -1,30 +1,29 @@
 <import src="../template/template.wxml"/>
 
-<view>
+<view class="baseV">
     <image src="../../image/cleanHome.png" mode="aspectFit"></image>
 
-    <view class = "baseView">
+    <view class = "">
 <!--中间文字-->
-        <label class = "tipLabel">基本信息</label>
-        <label class="detailL">打扫卫生</label>
-
-        <view class="priceV">
-            <label class="detailL">80.00元</label>
-            <view class="numberV">
-                <button class="addBtn">➕</button>
-                <label>0</label>
-                <button class="reduceBtn">➖</button>
-            </view> 
+        <view class="tip_base">基本信息</view>
+        <view class="infoV">
+            <view class="tip_info">家政服务</view>
+            <view class="priceV">
+                <label class="detail_price">80.00元/次</label>
+                <view class="numberV">
+                    <button class="addBtn">+</button>
+                    <label>0</label>
+                    <button class="reduceBtn">-</button>
+                </view> 
+            </view>
+            <view class="detailV">详细信息</view>
+            <view class="detailInfo">感恩特惠家政服务一次。</view>
         </view>
-
-        <label class="tipLabel">详细信息</label>
-
-        <label class="detailL">如果你没法简洁的表达你的想法，那说明你还不够了解它</label>
-
-        <label class="detailL">--阿尔伯特。爱因斯坦</label>
-        
     </view>
 
     <!--底部提交订单-->
-        <template is="acountV"></template>
+        <!--<template is="acountV"></template>-->
+        <view class="orderV">
+           <button>立即预定</button>
+        </view>
 </view>

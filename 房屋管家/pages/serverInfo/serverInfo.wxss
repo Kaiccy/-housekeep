@@ -1,35 +1,78 @@
-.baseView{
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
+.baseV{
+    background-color: white;
+    height: 100%;
+    position: relative;
 }
 
 /*图片的样式*/
-view image{
+image{
     width: 100%;
-    background-color: black;
+    background-color: rgb(242,54,58);
+    margin-bottom: 5px;
+    /*margin-right: 5px;
+    margin-left: 5px;*/
+    box-shadow: 0 1px 3px 1px #ccc;
 }
 
+.infoV{
+    padding:20px;
+    /*box-shadow: 0 1px 3px 1px #ccc;*/
+}
+
+.tip_base{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tip_info{
+    font-size: 16px;
+}
+.priceV .numberV{
+    bottom: 0;
+}
+.detail_price{
+    line-height: 50px;
+    font-size: 12px;
+    color: #888;
+}
 .priceV{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: relative;
 }
-
-.tipLabel{
-    font-size: 14px;
+.detailV{
+    color: #888;
+    font-size: 15px;
+}
+.detailInfo{
+    font-size: 12px;
+    color: #888;
     margin-top: 10px;
-    margin-bottom: 5px;
 }
 
-.detailL{
-    margin-left: 10px;
+.orderV{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 -1px 3px 1px #ccc;
 }
-
-
-
-
+.orderV button{
+    background-color: rgb(242,54,58);
+    border-radius: 5px;
+    width: 69p;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    bottom: -5px;
+}
 
 
 

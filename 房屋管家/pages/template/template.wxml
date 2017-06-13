@@ -1,5 +1,5 @@
 <template name="goodsItem">
-        <view class="middleItemV">
+        <view class="middleItemV" bindtap="toServerInfo">
             <image class="goodsImg" src="{{item.img}}" mode="aspectFill"></image>
             <view class="middleItemL">
                 <label>{{item.name}}</label>

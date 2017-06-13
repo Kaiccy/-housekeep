@@ -1,0 +1,46 @@
+.baseV{
+    background-color: #fff;
+    height: 100%;
+    widows: 100%;
+}
+.scoreV{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.coinIcon{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.yellowL{
+    color: #C7B15C;
+}
+.L1{
+    font-size: 18px;
+}
+.L11{
+    font-size: 12px;
+}
+.L2{
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.L3{
+    font-size: 12px;
+}
+
+.titleL{
+    font-size: 18px;
+    color: #C7B15C;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.privilegeV{
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}

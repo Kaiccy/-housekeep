@@ -1,0 +1,16 @@
+<view class="baseV">
+    <view class="scoreV">
+        <image src="../../image/icons/coin.png" class="coinIcon"></image>
+         <label class="yellowL L1">V</label><label class="yellowL L11">2</label>
+         <label class="yellowL L2">会员用户</label>
+         <label class="yellowL L3">(2000积分)</label>
+    </view>
+
+    <view class="titleL">我的特权</view>
+
+    <view class="privilegeV">
+        <block wx:for = "{{privileges}}" wx:key = "item">
+            <label>{{item}}</label>
+        </block>
+    </view>
+</view>

@@ -41,5 +41,26 @@ Page({
       desc: 'desc', // 分享描述
       path: 'path' // 分享路径
     }
+  },
+
+
+
+//   自定义函数
+  toServerInfo: function () {
+      wx.navigateTo({
+          url: '../serverInfo/serverInfo',
+      })
   }
+
+
+
+
+
+
+
+
+
+
+
+
 })

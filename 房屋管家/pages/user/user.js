@@ -66,8 +66,14 @@ Page({
       })
     }
     
-  }
+  },
   
+//   查看用户积分
+    checkUserInfo: function(){
+        wx.navigateTo({
+            url: '../vipScore/vipScore',
+        })
+    }
 
 
 })

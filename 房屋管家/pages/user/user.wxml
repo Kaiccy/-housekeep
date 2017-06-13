@@ -1,7 +1,7 @@
 <!--pages/user/user.wxml-->
 <view class="body">
     <view class="topV">
-        <view bindtap="bindViewTap" class="userinfo">
+        <view bindtap="checkUserInfo" class="userinfo">
             <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" mode="aspectFill"></image>
             <text class="userName">{{userInfo.nickName}}</text>
         </view>
