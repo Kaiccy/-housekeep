@@ -1,0 +1,48 @@
+
+.baseV{
+    margin-top: 30px;
+    /*position: relative;*/
+}
+.statusV{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contentV view:last-child{
+    display: none;
+}
+.statusImg{
+    width: 50px;
+    height: 50px;
+}
+.status{
+    text-indent: 10px;
+}
+.separateLine{
+    background-color: #ccc;
+    width: 2px;
+    height: 32px;
+    margin-left: 35px;
+}
+.orderNum{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+/*底部*/
+.bottomV{
+    height: 45;
+    line-height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    box-shadow: 0 -1px 3px 1px #ccc;
+}
+.nameL{
+    margin-left: 10px;
+}
+.phoneNumL{
+    margin-left: 20px;
+}

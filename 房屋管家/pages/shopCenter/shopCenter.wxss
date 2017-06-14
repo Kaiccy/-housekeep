@@ -9,7 +9,7 @@
 }
 
 .titleL{
-    background-color: rgb(242,54,58);
+    background-color: #F2363A;
     color: white;
     width: 100%;
     text-align: center;

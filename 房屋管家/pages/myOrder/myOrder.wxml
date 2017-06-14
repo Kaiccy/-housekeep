@@ -1,6 +1,6 @@
 <view class="baseV">
     <block wx:for = "{{orders}}">
-        <view class="orderItemV">
+        <view class="orderItemV" bindtap="toOrderStatus">
             <image class = "orderImg" src="{{item.imgUrl}}" mode="aspectFill"> </image>
             <view class="labelsV">
                 <label class = "orderNameL">{{item.title}}</label>

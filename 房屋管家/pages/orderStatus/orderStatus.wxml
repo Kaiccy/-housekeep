@@ -1,0 +1,18 @@
+<view class="baseV">
+    <view class="contentV">
+        <block wx:for = "{{orderStatus}}" wx:key = "item">
+            <view class="statusV">
+                <image src="../../image/imgs/status.png" class="statusImg"></image>
+                <label class="status">{{item}}</label>
+            </view>
+            <view class="separateLine"></view>
+        </block>
+    </view>
+    <view class="orderNum">订单号：113456888888642</view>
+    <button bindtap="toEvaluate">去评价</button>
+    <view class="bottomV">
+        <label class="tipL">服务管家：</label>
+        <label class="nameL">徐见</label>
+        <label class="phoneNumL">1810000000</label>
+    </view>
+</view>

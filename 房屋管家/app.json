@@ -14,10 +14,12 @@
     "pages/myExpress/myExpress",
     "pages/setwardService/setwardService",
     "pages/homeInfo/homeInfo",
-    "pages/vipScore/vipScore"
+    "pages/vipScore/vipScore",
+    "pages/orderStatus/orderStatus",
+    "pages/evaluate/evaluate"
   ],
   "window":{
-    "navigationBarBackgroundColor": "rgb(242,54,58)",
+    "navigationBarBackgroundColor": "#F2363A",
     "navigationBarTitleText": "房屋管家",
     "navigationBarTextStyle":"#fff",
     "enablePullDownRefresh": true,
