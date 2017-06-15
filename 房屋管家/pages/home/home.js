@@ -1,9 +1,12 @@
 Page({
   data:{
-    imgUrls:[
-      '../../image/banner/banner1.jpg',
-      '../../image/banner/banner1.jpg',
-      '../../image/banner/banner1.jpg'
+    bannerUrls:[
+        {
+            "id": "3",
+            "Img": "http://xj-image.oss-cn-hangzhou.aliyuncs.com/可口可乐广告.jpg",
+            "Title": "测试123",
+            "Content": "测试内容一i发射点发哦说的佛啊说的佛啊是地方"
+        }
     ],
 
     servers:[
@@ -46,6 +49,26 @@ Page({
 
   onLoad:function(options){
     // 生命周期函数--监听页面加载
+      var _this = this
+    wx.request({
+        url: 'https://www.eju-house.com/JoyRoom-ports/Index/Banner.php',
+        method:"post",
+        header:"",
+        data:{},
+        success: function (res) {
+        // success
+        console.log('请求成功==='+res.data.data[0].title)
+        _this.setData ({
+            bannerUrls : res.data.data
+        })
+      },
+      fail: function(res) {
+        console.log('请求失败==='+res)
+      },
+      complete: function(res) {
+        console.log('请求完成==='+res)
+      }
+    })
     
   },
   onReady:function(){

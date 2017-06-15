@@ -13,12 +13,7 @@
 }*/
 .items view {
     width: 49%;
-    /*height: 100px;*/
-    /*display: flex;
-    flex-direction: column;*/
     float: left;
-    /*text-align: center;*/
-    /*align-items: center;*/
     font-size: 12px;
     margin-bottom: -2px;
     border: 1px solid #ccc;
@@ -42,5 +37,3 @@
     border-right: none;
 }
 
-
-/*底部图片*/
