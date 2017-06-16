@@ -1,15 +1,24 @@
 <view class="baseV">
     <view class="contentV">
         <block wx:for = "{{orderStatus}}" wx:key = "item">
-            <view class="statusV">
-                <image src="../../image/imgs/status.png" class="statusImg"></image>
-                <label class="status">{{item}}</label>
-            </view>
-            <view class="separateLine"></view>
+            <block wx:if = "{{item.status == 0}}">
+                <view class="statusV">
+                    <image src="../../image/imgs/status.png" class="statusImg"></image>
+                    <label class="status">{{item.text}}</label>
+                </view>
+                <view class="separateLine"></view>
+            </block>
+            <block wx:elif = "{{item.status == 1}}">
+                <view class="statusV">
+                    <image src="../../image/imgs/status.png" class="statusImg"></image>
+                    <label class="status">{{item.text}}</label>
+                    <button class="goEvaluateBtn" bindtap="toEvaluate">前往评价 >></button>
+                </view>
+            </block>
+            
         </block>
     </view>
     <view class="orderNum">订单号：113456888888642</view>
-    <button bindtap="toEvaluate">去评价</button>
     <view class="bottomV">
         <label class="tipL">服务管家：</label>
         <label class="nameL">徐见</label>

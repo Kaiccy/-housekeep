@@ -26,7 +26,7 @@
             </view>
         </view>
         <view class="evaluate_starV">
-            <label>送货时间：</label>
+            <label>管家服务：</label>
             <view class="starV">
                 <image class="starImg" src="../../image/imgs/star.png"></image>
                 <image class="starImg" src="../../image/imgs/star.png"></image>
@@ -36,7 +36,7 @@
             </view>
         </view>
         <view class="evaluate_starV">
-            <label>送货时间：</label>
+            <label>商品评价：</label>
             <view class="starV">
                 <image class="starImg" src="../../image/imgs/star.png"></image>
                 <image class="starImg" src="../../image/imgs/star.png"></image>
