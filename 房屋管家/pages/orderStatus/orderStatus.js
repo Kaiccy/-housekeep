@@ -92,7 +92,8 @@ Page({
 // 自定义函数
   toEvaluate: function(){
       wx.navigateTo({
-          url: '../evaluate/evaluate',
+        //   url: '../evaluate/evaluate'
+          url: '../star/star'
       })
   }
 

@@ -16,7 +16,8 @@
     "pages/homeInfo/homeInfo",
     "pages/vipScore/vipScore",
     "pages/orderStatus/orderStatus",
-    "pages/evaluate/evaluate"
+    "pages/evaluate/evaluate",
+    "pages/star/star"
   ],
   "window":{
     "navigationBarBackgroundColor": "#F2363A",

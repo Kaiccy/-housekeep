@@ -29,16 +29,7 @@ page{
     margin-left: 15px;
     margin-bottom: 15px;
 }
-/*
-.expressItemV{
-    margin-top: 20px;
-    box-shadow: 0 1px 3px 1px #ccc;
-}
 
-.expressItemV view{
-    margin-top: 10px;
+.tipL{
+    margin-right: 5px;
 }
-
-.expressItemV view label{
-    margin-left: 10px;
-}*/

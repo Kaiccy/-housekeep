@@ -1,13 +1,32 @@
 Page({
   data:{
-    expresses:[
-      {num:'1246804311636446780',time:'2017-5-1',state:'已收件'},
-      {num:'1246804311636446780',time:'2017-5-1',state:'已收件'},
-      {num:'1246804311636446780',time:'2017-5-1',state:'已收件'}
+      expresses:[
+      {No:'1246804311636446780',Date:'2017-5-1',State:'已收件'}
     ]
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载
+      
+      var _this = this
+      wx.request({
+          url: 'https://www.eju-house.com/JoyRoom-ports/Fastmail/Fastmail.php',
+          method: "post",
+          header: {'content-type': 'application/x-www-form-urlencoded'},
+          data: {Openid:'241234123'},
+          success: function (res) {
+              // success
+              console.log('请求成功===' + res.data.data)
+              _this.setData({
+                  expresses: res.data.data
+              })
+          },
+          fail: function (res) {
+              console.log('请求失败===' + res)
+          },
+          complete: function (res) {
+              console.log('请求完成===' + res.data.msg)
+          }
+      })
   },
   onReady:function(){
     // 生命周期函数--监听页面初次渲染完成
