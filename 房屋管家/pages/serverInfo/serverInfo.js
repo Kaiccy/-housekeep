@@ -1,6 +1,9 @@
 Page({
   data:{
-    
+      total:{
+          count:0,
+          money:0
+      }
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载
@@ -60,6 +63,37 @@ buyAction: function(){
       // complete
     }
   })
+},
+
+//   增减数量
+addNum: function (event) {
+    var total = this.data.total;
+    total.count += 1;
+    total.money += 80;
+    this.setData({
+        total: total
+    })
+},
+
+//减少数量
+reduceNum: function (event) {
+    var total = this.data.total;
+    if (total.count <= 0) {
+        return;
+    }
+    total.count -= 1;
+    total.money -= 80;
+    this.setData({
+        total: total
+    })
+},
+//   跳转到付款页面
+buyAction: function (event) {
+    var e = event.currentTarget.dataset
+    console.log(e.amount)
+    wx.redirectTo({
+        url: '../pay/pay?amount=' + e.amount,
+    })
 }
 
 

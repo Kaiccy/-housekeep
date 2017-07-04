@@ -17,6 +17,11 @@
     line-height: 30px;
 }
 
+.imgText{
+    display: flex;
+    flex-direction: row;
+}
+
 .goodsImg{
     width: 110px;
     height: 75px;
@@ -56,7 +61,7 @@
 /*提交订单*/
 .acountV{
     position: fixed;
-    bottom: 20px;
+    bottom: 0px;
     width: 100%;
     height: 40px;
     line-height: 40px;

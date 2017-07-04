@@ -5,7 +5,6 @@ page {
 .payAmountV{
     background-color: white;
     margin-top: 20px;
-    height: 40px;
 }
 
 .payAmountV::before,.payAmountV::after{
@@ -14,7 +13,9 @@ page {
     height: 1px;
     display: block;
 }
-
+.payAmountV::before{
+    margin-bottom: 10px;
+}
 .payAmountV::after{
     margin-top: 10px;
 }
@@ -24,10 +25,27 @@ page {
 }
 
 .choosePayMethodV label{
-    display: block;
+    display: inline-block;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 14px;
+}
+.choosePayMethodV view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 30px;
+}
+/*.radio{
+    line-height: 30px;
+}*/
+
+.choosePayMethodV image{
+    width: 25px;
+    height: 25px;
+    line-height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 .payBtnV {

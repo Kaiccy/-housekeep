@@ -1,18 +1,24 @@
 <view class="payAmountV">
     <label>支付金额:</label>
-    <label>20.00元</label>
+    <label>{{amount}}元</label>
 </view>
 <!--选择支付方式-->
 <view class="choosePayMethodV">
     <label>支付方式</label>
     <radio-group class="radio-group" bindchange="radioChange">
-        <label class="radio">
-            <radio value="weChat" />微信支付
-        </label>
-        <label class="radio">
-            <radio value="aliPay" />支付宝支付
-        </label>
-
+        <view class="">
+            <label class="radio">
+                <radio value="weChat" />微信支付
+            </label>
+            <image src="../../image/icons/wepay.png"></image>
+        </view>
+        
+        <view class="">
+            <label class="radio">
+                <radio value="aliPay" />支付宝支付
+            </label>
+            <image src="../../image/icons/zhifubao.png"></image>
+        </view>
     </radio-group>
 </view>
 <view class="payBtnV">

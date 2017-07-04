@@ -1,10 +1,13 @@
 Page({
   data:{
-    
+    amount:0
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载
-    
+    this.setData({
+        amount: options.amount
+    })
+    options.amount
   },
   onReady:function(){
     // 生命周期函数--监听页面初次渲染完成

@@ -79,11 +79,21 @@ Page({
 
 
 //   自定义函数
+
+// 跳转到服务详情
   toServerInfo: function () {
-    //   wx.navigateTo({
-    //     //   url: '../serverInfo/serverInfo',
-    //   })
+      wx.navigateTo({
+          url: '../serverInfo/serverInfo',
+      })
   },
+
+//   跳转到付款页面
+    buyAction: function(event) {
+        var e = event.currentTarget.dataset
+        wx.navigateTo({
+            url: '../pay/pay?amount='+e.amount,
+        })
+    },
 
   //   增减数量
   addNum: function (event) {

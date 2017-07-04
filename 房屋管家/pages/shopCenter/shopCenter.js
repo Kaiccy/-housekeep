@@ -80,7 +80,7 @@ Page({
 
         // 设置导航标题
         wx.setNavigationBarTitle({
-          title: options.navTitle,
+        //   title: options.navTitle,
           success: function(res) {
             // success
           }

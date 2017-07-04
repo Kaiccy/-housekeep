@@ -11,9 +11,9 @@
             <view class="priceV">
                 <label class="detail_price">80.00元/次</label>
                 <view class="numberV">
-                    <button class="addBtn">+</button>
-                    <label>0</label>
-                    <button class="reduceBtn">-</button>
+                    <button class="reduceBtn" bindtap="reduceNum">-</button>
+                    <label>{{total.count}}</label>
+                    <button class="addBtn" bindtap="addNum">+</button>
                 </view> 
             </view>
             <view class="detailV">详细信息</view>
@@ -24,6 +24,6 @@
     <!--底部提交订单-->
         <!--<template is="acountV"></template>-->
         <view class="orderV">
-           <button>立即预定</button>
+           <button bindtap="buyAction" data-amount="{{total.money}}">立即预定</button>
         </view>
 </view>
